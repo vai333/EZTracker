@@ -1,0 +1,23 @@
+# Netlify hosts the web app only. The API (FastAPI + Playwright + 3-hourly scheduler) needs an always-on
+# host such as Railway, Render or Fly — see docs/runbook.md.
+[build]
+  base = "apps/web"
+  command = "npm ci && npx vite build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # Set VITE_API_URL in Netlify → Site settings → Environment variables (your deployed API's URL).
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
