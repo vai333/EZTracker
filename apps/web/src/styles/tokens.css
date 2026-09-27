@@ -1,0 +1,127 @@
+/* EZTracker design tokens (§9). Single source of truth — scripts/check-contrast.mjs parses this file.
+   Light = "Ivory & Forest", Dark = "Obsidian & Champagne". Default follows the OS; the toggle writes
+   data-theme on <html>. `*-text` variants exist where the spec hue is fine for UI (≥3:1) but too light
+   for small text (≥4.5:1) — see docs/decisions.md D-012. */
+
+:root {
+  color-scheme: light;
+  --bg: #F7F4EE;
+  --surface: #FFFDF9;
+  --surface-2: #EFEBE3;
+  --border: #E4DED3;
+  --text: #2B2925;
+  --text-muted: #6B665C;
+  --text-faint: #6F6A60;
+  --primary: #1F4D3A;
+  --primary-fg: #F7F4EE;
+  --accent: #A0804B;
+  --accent-text: #7D5F2E;
+  --danger: #B3432F;
+  --danger-text: #B3432F;
+  --warning: #B7791F;
+  --warning-text: #8F5B12;
+  --success: #3F7D5C;
+  --success-text: #346B4E;
+  --info: #3E5C76;
+  --info-text: #3E5C76;
+
+  --course-0: #2F6B55; --course-1: #7A5C3E; --course-2: #4B5D8A; --course-3: #8A4B5E;
+  --course-4: #5E7A3A; --course-5: #3E7480; --course-6: #8A6D2F; --course-7: #6A4E86;
+
+  --focus: 0 0 0 3px color-mix(in oklab, var(--primary) 35%, transparent);
+  --shadow-card: 0 1px 2px rgb(28 27 24 / .04), 0 4px 16px rgb(28 27 24 / .05);
+  --shadow-lift: 0 12px 32px rgb(28 27 24 / .14);
+  --elev-hairline: inset 0 0 0 0 transparent;
+  --grain-opacity: .025;
+
+  --ease: cubic-bezier(.2, .8, .2, 1);
+  --dur-press: 120ms;
+  --dur-toggle: 180ms;
+  --dur-move: 240ms;
+
+  --radius-card: 10px;
+  --radius-col: 14px;
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-ui: "Nunito Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+:root[data-theme="dark"], [data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0F0F0E;
+  --surface: #171715;
+  --surface-2: #1F1E1B;
+  --border: #2A2926;
+  --text: #E6E1D8;
+  --text-muted: #A39E93;
+  --text-faint: #8C877D;
+  --primary: #D9BF8C;
+  --primary-fg: #16140F;
+  --accent: #7FB39A;
+  --accent-text: #7FB39A;
+  --danger: #E07A63;
+  --danger-text: #E07A63;
+  --warning: #E3B25A;
+  --warning-text: #E3B25A;
+  --success: #7FB39A;
+  --success-text: #7FB39A;
+  --info: #8FB0CC;
+  --info-text: #8FB0CC;
+
+  --course-0: #65A189; --course-1: #B19171; --course-2: #7E92C3; --course-3: #C47F93;
+  --course-4: #93B16F; --course-5: #74ABB7; --course-6: #C2A366; --course-7: #A082BF;
+
+  --shadow-card: none;
+  --shadow-lift: 0 12px 32px rgb(0 0 0 / .5);
+  --elev-hairline: inset 0 0 0 1px rgb(255 255 255 / .04);
+  --grain-opacity: 0;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --bg: #F7F4EE;
+  --surface: #FFFDF9;
+  --surface-2: #EFEBE3;
+  --border: #E4DED3;
+  --text: #2B2925;
+  --text-muted: #6B665C;
+  --text-faint: #6F6A60;
+  --primary: #1F4D3A;
+  --primary-fg: #F7F4EE;
+  --accent: #A0804B;
+  --accent-text: #7D5F2E;
+  --danger: #B3432F;
+  --danger-text: #B3432F;
+  --warning: #B7791F;
+  --warning-text: #8F5B12;
+  --success: #3F7D5C;
+  --success-text: #346B4E;
+  --info: #3E5C76;
+  --info-text: #3E5C76;
+  --course-0: #2F6B55; --course-1: #7A5C3E; --course-2: #4B5D8A; --course-3: #8A4B5E;
+  --course-4: #5E7A3A; --course-5: #3E7480; --course-6: #8A6D2F; --course-7: #6A4E86;
+  --shadow-card: 0 1px 2px rgb(28 27 24 / .04), 0 4px 16px rgb(28 27 24 / .05);
+  --shadow-lift: 0 12px 32px rgb(28 27 24 / .14);
+  --elev-hairline: inset 0 0 0 0 transparent;
+  --grain-opacity: .025;
+}
+
+/* OS preference when the user hasn't chosen (no data-theme attribute) */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]):not([data-theme="dark"]) {
+    color-scheme: dark;
+    --bg: #0F0F0E; --surface: #171715; --surface-2: #1F1E1B; --border: #2A2926;
+    --text: #E6E1D8; --text-muted: #A39E93; --text-faint: #8C877D;
+    --primary: #D9BF8C; --primary-fg: #16140F;
+    --accent: #7FB39A; --accent-text: #7FB39A;
+    --danger: #E07A63; --danger-text: #E07A63; --warning: #E3B25A; --warning-text: #E3B25A;
+    --success: #7FB39A; --success-text: #7FB39A; --info: #8FB0CC; --info-text: #8FB0CC;
+    --course-0: #65A189; --course-1: #B19171; --course-2: #7E92C3; --course-3: #C47F93;
+    --course-4: #93B16F; --course-5: #74ABB7; --course-6: #C2A366; --course-7: #A082BF;
+    --shadow-card: none; --shadow-lift: 0 12px 32px rgb(0 0 0 / .5);
+    --elev-hairline: inset 0 0 0 1px rgb(255 255 255 / .04); --grain-opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur-press: 0ms; --dur-toggle: 0ms; --dur-move: 0ms; }
+}

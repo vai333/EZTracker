@@ -1,0 +1,898 @@
+{
+ "generated_for": "2026-09-27T06:00:00+00:00",
+ "courses": [
+  {
+   "id": "4991cb46-2d60-4b8d-8af8-1240647c8b78",
+   "name": "AI and its Application (Divij & Mihirr)",
+   "nexus_course_id": "c-ai",
+   "short_name": "AI and its Appli…",
+   "instructor": null,
+   "category": "core",
+   "mode": "Hybrid",
+   "term": "Term 1",
+   "color_index": 0,
+   "is_archived": false
+  },
+  {
+   "id": "51b6e3ba-0581-41cd-ad91-1e7351b05088",
+   "name": "AI Workshops",
+   "nexus_course_id": "c-aiw",
+   "short_name": "AI Workshops",
+   "instructor": null,
+   "category": "soft_skills",
+   "mode": "In Class",
+   "term": "Term 1",
+   "color_index": 1,
+   "is_archived": false
+  },
+  {
+   "id": "58d59022-f26e-4278-978e-87340014e828",
+   "name": "Build Your Own Business (BYOB)",
+   "nexus_course_id": "c-byob",
+   "short_name": "BYOB",
+   "instructor": null,
+   "category": "core",
+   "mode": "In Class",
+   "term": "Term 1",
+   "color_index": 2,
+   "is_archived": false
+  },
+  {
+   "id": "9cd844ee-45ef-4d37-84bf-5a1ef86bf03c",
+   "name": "Business Frameworks with Pranjal Bangani",
+   "nexus_course_id": "c-bf",
+   "short_name": "Business Framewo…",
+   "instructor": null,
+   "category": "core",
+   "mode": "In Class",
+   "term": "Term 1",
+   "color_index": 3,
+   "is_archived": false
+  },
+  {
+   "id": "7c00c7ef-d8b9-4f83-9e4e-dc88af8255de",
+   "name": "Business Reader with Suprad",
+   "nexus_course_id": "c-br",
+   "short_name": "Business Reader",
+   "instructor": null,
+   "category": "soft_skills",
+   "mode": "In Class",
+   "term": "Term 1",
+   "color_index": 4,
+   "is_archived": false
+  },
+  {
+   "id": "cdbaf756-e30a-4513-929b-bd39d6572a9f",
+   "name": "Career Readiness",
+   "nexus_course_id": "c-cr",
+   "short_name": "Career Readiness",
+   "instructor": null,
+   "category": "soft_skills",
+   "mode": "Hybrid",
+   "term": "Term 1",
+   "color_index": 5,
+   "is_archived": false
+  },
+  {
+   "id": "56a41f0b-2253-49ac-8847-832f75e39d83",
+   "name": "Crafting Marketing Strategies with Prof. Siddarth Menon",
+   "nexus_course_id": "c-cms",
+   "short_name": "CMS",
+   "instructor": null,
+   "category": "core",
+   "mode": "In Class",
+   "term": "Term 1",
+   "color_index": 6,
+   "is_archived": false
+  },
+  {
+   "id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+   "name": "Data Driven Decision Making with Prof. Vinay Sharma",
+   "nexus_course_id": "c-dddm",
+   "short_name": "DDDM",
+   "instructor": null,
+   "category": "core",
+   "mode": "In Class",
+   "term": "Term 1",
+   "color_index": 7,
+   "is_archived": false
+  },
+  {
+   "id": "dfa09d29-889e-4e7d-95bb-9692a595e93d",
+   "name": "Orientation Week",
+   "nexus_course_id": "c-ow",
+   "short_name": "Orientation Week",
+   "instructor": null,
+   "category": "soft_skills",
+   "mode": "In Class",
+   "term": "Pre-Term",
+   "color_index": 0,
+   "is_archived": false
+  }
+ ],
+ "aliases": [
+  {
+   "id": "74dfed1b-b9af-4137-867e-97fbcd98b65a",
+   "course_id": "4991cb46-2d60-4b8d-8af8-1240647c8b78",
+   "alias": "application",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "2007aea3-4c45-4996-9374-70b62592580d",
+   "course_id": "4991cb46-2d60-4b8d-8af8-1240647c8b78",
+   "alias": "ai and its application",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "3ada931d-bdc7-47d1-b585-49bcab349eb2",
+   "course_id": "4991cb46-2d60-4b8d-8af8-1240647c8b78",
+   "alias": "divij",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "5f42e6b3-f5c5-4747-87d1-847cf025d3d8",
+   "course_id": "4991cb46-2d60-4b8d-8af8-1240647c8b78",
+   "alias": "mihirr",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "9cad07c6-3383-4a8c-bb32-f40c74b8eb04",
+   "course_id": "51b6e3ba-0581-41cd-ad91-1e7351b05088",
+   "alias": "workshops",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "64e7b6bb-634f-4253-9a32-8a1bf45424c9",
+   "course_id": "51b6e3ba-0581-41cd-ad91-1e7351b05088",
+   "alias": "ai workshops",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "9077a0ca-da63-4cfa-b5d7-14d2f6279214",
+   "course_id": "58d59022-f26e-4278-978e-87340014e828",
+   "alias": "build your own business",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "1ed72f52-cc6d-478c-bc1a-f915539fbd2d",
+   "course_id": "58d59022-f26e-4278-978e-87340014e828",
+   "alias": "byob",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "a2f7d573-e06b-47bc-8d41-3b6bc66fe421",
+   "course_id": "9cd844ee-45ef-4d37-84bf-5a1ef86bf03c",
+   "alias": "frameworks",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "5ba6dd5f-083a-4608-998c-088c75c7a07d",
+   "course_id": "9cd844ee-45ef-4d37-84bf-5a1ef86bf03c",
+   "alias": "business frameworks",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "c0334ef5-21e2-4b06-8f2c-d61d534d9686",
+   "course_id": "9cd844ee-45ef-4d37-84bf-5a1ef86bf03c",
+   "alias": "pranjal",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "3290d369-9943-4059-af3a-46280a6f0fbd",
+   "course_id": "9cd844ee-45ef-4d37-84bf-5a1ef86bf03c",
+   "alias": "bangani",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "04c72d51-061b-4bca-8586-e3d2ead0c84f",
+   "course_id": "7c00c7ef-d8b9-4f83-9e4e-dc88af8255de",
+   "alias": "reader",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "51149462-322a-4d1b-b1b4-524e30ec360e",
+   "course_id": "7c00c7ef-d8b9-4f83-9e4e-dc88af8255de",
+   "alias": "business reader",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "7844d1a6-8c41-4f94-acc8-abeeb2191f9e",
+   "course_id": "7c00c7ef-d8b9-4f83-9e4e-dc88af8255de",
+   "alias": "suprad",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "3f85ca9b-9fb8-4a22-bac2-3673854654bb",
+   "course_id": "cdbaf756-e30a-4513-929b-bd39d6572a9f",
+   "alias": "readiness",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "b056d774-d9ff-47c0-afb5-12497c370b14",
+   "course_id": "cdbaf756-e30a-4513-929b-bd39d6572a9f",
+   "alias": "career readiness",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "84bf3937-b742-4a21-9c17-e5cab35b497f",
+   "course_id": "56a41f0b-2253-49ac-8847-832f75e39d83",
+   "alias": "crafting",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "1eec652c-8b22-4672-aa13-1d3a60a13c35",
+   "course_id": "56a41f0b-2253-49ac-8847-832f75e39d83",
+   "alias": "marketing",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "1abd8712-f942-4f1b-84ac-16e65df5f430",
+   "course_id": "56a41f0b-2253-49ac-8847-832f75e39d83",
+   "alias": "strategies",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "92864d30-cfca-4a2e-b84f-27d0e3e4057d",
+   "course_id": "56a41f0b-2253-49ac-8847-832f75e39d83",
+   "alias": "crafting marketing strategies",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "b43b1dca-eca3-4a1a-83d5-98c906e7b430",
+   "course_id": "56a41f0b-2253-49ac-8847-832f75e39d83",
+   "alias": "cms",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "47395c33-e539-4660-8281-4dac8c0f2115",
+   "course_id": "56a41f0b-2253-49ac-8847-832f75e39d83",
+   "alias": "siddarth",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "3ddeb025-8003-4a87-b295-6a23a0ed45e5",
+   "course_id": "56a41f0b-2253-49ac-8847-832f75e39d83",
+   "alias": "menon",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "f4c40797-2cde-4df1-b2ef-2f4f59a101ba",
+   "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+   "alias": "data",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "422902ba-e761-4ea0-a12c-913586d95b5d",
+   "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+   "alias": "driven",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "210fdf22-0238-4ebd-95e3-37db470693c6",
+   "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+   "alias": "decision",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "80910413-42e2-4fa2-ada9-cba224e1d7fc",
+   "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+   "alias": "making",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "95f9f014-f66f-4288-8a75-4d11e94f00ae",
+   "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+   "alias": "data driven decision making",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "1bfc6a74-4cbb-4eef-a0fa-5ab423700dff",
+   "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+   "alias": "dddm",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "da3003ea-dfb8-4c8a-9b9f-a3bc8773e79b",
+   "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+   "alias": "vinay",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "de936d59-7865-46b8-9eb3-c64b4589f146",
+   "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+   "alias": "sharma",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "ea6f0109-af21-419c-84e9-1ebc93cfd66b",
+   "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+   "alias": "zepto",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "ead81fca-f818-4087-998c-91e94446647f",
+   "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+   "alias": "rapido",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "1827489d-1e18-47c8-8ab9-70187a379302",
+   "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+   "alias": "lenskart",
+   "source": "seed",
+   "weight": 1.0
+  },
+  {
+   "id": "0faef09b-2988-4405-8f24-6f3d8d2bed65",
+   "course_id": "dfa09d29-889e-4e7d-95bb-9692a595e93d",
+   "alias": "orientation week",
+   "source": "seed",
+   "weight": 1.0
+  }
+ ],
+ "work_items": [
+  {
+   "id": "7a5c04fc-0feb-444a-8935-91b0a2d596d8",
+   "title": "Zepto Case Analysis",
+   "origin": "both",
+   "kind": "assignment",
+   "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+   "due_at": "2026-09-30T06:00:00+00:00",
+   "due_source": "nexus_field",
+   "instructions_md": "Analyse the **Zepto** dark-store economics.",
+   "links": [
+    {
+     "label": "Open in Nexus",
+     "url": "https://students.mesaschool.co.in/student/lms/assignments"
+    }
+   ],
+   "nexus_status": "Pending",
+   "my_status": "pending",
+   "my_status_set_by": "default",
+   "my_note": null,
+   "classification": "auto",
+   "confidence": 1.0,
+   "classifier_reasons": [
+    {
+     "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+     "course": "Data Driven Decision Making with Prof. Vinay Sharma",
+     "score": 1.0,
+     "reasons": [
+      "My Work course 'Data Driven Decision Making with Prof. Vinay Sharma'"
+     ]
+    }
+   ],
+   "assignment_raw_id": "15b54000-59ee-4f97-b0c9-6c46a752aef6",
+   "is_hidden": false,
+   "title_source": "nexus",
+   "kind_source": "auto",
+   "upstream_due_at": null,
+   "due_changed_at": null,
+   "upstream_updated_at": null,
+   "first_seen_at": "2026-09-27T06:00:00+00:00",
+   "updated_at": "2026-09-27T06:00:00+00:00"
+  },
+  {
+   "id": "f1795068-8c74-4ad3-babc-8c96781be9b9",
+   "title": "Session 7 Lenskart Workbook",
+   "origin": "both",
+   "kind": "workbook",
+   "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+   "due_at": "2026-10-02T06:00:00+00:00",
+   "due_source": "nexus_field",
+   "instructions_md": "Complete the workbook.",
+   "links": [
+    {
+     "label": "Open in Nexus",
+     "url": "https://students.mesaschool.co.in/student/lms/assignments"
+    }
+   ],
+   "nexus_status": "Pending",
+   "my_status": "pending",
+   "my_status_set_by": "default",
+   "my_note": null,
+   "classification": "auto",
+   "confidence": 1.0,
+   "classifier_reasons": [
+    {
+     "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+     "course": "Data Driven Decision Making with Prof. Vinay Sharma",
+     "score": 1.0,
+     "reasons": [
+      "My Work course 'Data Driven Decision Making with Prof. Vinay Sharma'"
+     ]
+    }
+   ],
+   "assignment_raw_id": "cb25fb38-edb6-400c-858b-e768bdf2f879",
+   "is_hidden": false,
+   "title_source": "nexus",
+   "kind_source": "auto",
+   "upstream_due_at": null,
+   "due_changed_at": null,
+   "upstream_updated_at": null,
+   "first_seen_at": "2026-09-27T06:00:00+00:00",
+   "updated_at": "2026-09-27T06:00:00+00:00"
+  },
+  {
+   "id": "aa249e9d-dae7-4aff-845f-1494503ada0b",
+   "title": "Rapido Pricing Memo",
+   "origin": "assignments_tab",
+   "kind": "assignment",
+   "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+   "due_at": "2026-09-26T06:00:00+00:00",
+   "due_source": "nexus_field",
+   "instructions_md": null,
+   "links": [
+    {
+     "label": "Open in Nexus",
+     "url": "https://students.mesaschool.co.in/student/lms/assignments"
+    }
+   ],
+   "nexus_status": "Pending",
+   "my_status": "pending",
+   "my_status_set_by": "default",
+   "my_note": null,
+   "classification": "auto",
+   "confidence": 1.0,
+   "classifier_reasons": [
+    {
+     "course_id": "d9fef83a-84e4-4c36-81f1-c5bd3809aa49",
+     "course": "Data Driven Decision Making with Prof. Vinay Sharma",
+     "score": 1.0,
+     "reasons": [
+      "My Work course 'Data Driven Decision Making with Prof. Vinay Sharma'"
+     ]
+    }
+   ],
+   "assignment_raw_id": "e6f84fd1-344c-40db-be73-244d46a46d47",
+   "is_hidden": false,
+   "title_source": "nexus",
+   "kind_source": "auto",
+   "upstream_due_at": null,
+   "due_changed_at": null,
+   "upstream_updated_at": null,
+   "first_seen_at": "2026-09-27T06:00:00+00:00",
+   "updated_at": "2026-09-27T06:00:00+00:00"
+  },
+  {
+   "id": "e5c3f264-2c9e-446e-9800-a4a68e3ca84c",
+   "title": "BYOB Milestone 2: Customer Discovery",
+   "origin": "assignments_tab",
+   "kind": "assignment",
+   "course_id": "58d59022-f26e-4278-978e-87340014e828",
+   "due_at": "2026-10-06T06:00:00+00:00",
+   "due_source": "nexus_field",
+   "instructions_md": "Interview 15 customers.",
+   "links": [
+    {
+     "label": "Open in Nexus",
+     "url": "https://students.mesaschool.co.in/student/lms/assignments"
+    }
+   ],
+   "nexus_status": "Pending",
+   "my_status": "pending",
+   "my_status_set_by": "default",
+   "my_note": null,
+   "classification": "auto",
+   "confidence": 1.0,
+   "classifier_reasons": [
+    {
+     "course_id": "58d59022-f26e-4278-978e-87340014e828",
+     "course": "Build Your Own Business (BYOB)",
+     "score": 1.0,
+     "reasons": [
+      "My Work course 'Build Your Own Business (BYOB)'"
+     ]
+    }
+   ],
+   "assignment_raw_id": "c6f54aab-38af-4004-b076-94f79a644f63",
+   "is_hidden": false,
+   "title_source": "nexus",
+   "kind_source": "auto",
+   "upstream_due_at": null,
+   "due_changed_at": null,
+   "upstream_updated_at": null,
+   "first_seen_at": "2026-09-27T06:00:00+00:00",
+   "updated_at": "2026-09-27T06:00:00+00:00"
+  },
+  {
+   "id": "6e225049-a126-41de-b81b-76a0d298b370",
+   "title": "Framework Drill: Porter's Five Forces",
+   "origin": "assignments_tab",
+   "kind": "assignment",
+   "course_id": "9cd844ee-45ef-4d37-84bf-5a1ef86bf03c",
+   "due_at": "2026-09-28T06:00:00+00:00",
+   "due_source": "nexus_field",
+   "instructions_md": null,
+   "links": [
+    {
+     "label": "Open in Nexus",
+     "url": "https://students.mesaschool.co.in/student/lms/assignments"
+    }
+   ],
+   "nexus_status": "Submitted",
+   "my_status": "submitted",
+   "my_status_set_by": "default",
+   "my_note": null,
+   "classification": "auto",
+   "confidence": 1.0,
+   "classifier_reasons": [
+    {
+     "course_id": "9cd844ee-45ef-4d37-84bf-5a1ef86bf03c",
+     "course": "Business Frameworks with Pranjal Bangani",
+     "score": 1.0,
+     "reasons": [
+      "My Work course 'Business Frameworks with Pranjal Bangani'"
+     ]
+    }
+   ],
+   "assignment_raw_id": "d4e254d1-fe2b-48ee-88b0-638cb95230be",
+   "is_hidden": false,
+   "title_source": "nexus",
+   "kind_source": "auto",
+   "upstream_due_at": null,
+   "due_changed_at": null,
+   "upstream_updated_at": null,
+   "first_seen_at": "2026-09-27T06:00:00+00:00",
+   "updated_at": "2026-09-27T06:00:00+00:00"
+  },
+  {
+   "id": "a4b07c61-be47-472d-831f-18eec2564575",
+   "title": "Important: END TERM ASSIGNMENT – Crafting Marketing Strategy",
+   "origin": "notification_only",
+   "kind": "announcement_task",
+   "course_id": "56a41f0b-2253-49ac-8847-832f75e39d83",
+   "due_at": "2026-10-05T18:29:00+00:00",
+   "due_source": "parsed_from_text",
+   "instructions_md": "Submit your end term deck by 5th Oct, 11:59 PM.",
+   "links": [
+    {
+     "label": "Open in Nexus",
+     "url": "https://students.mesaschool.co.in/student/lms/notifications"
+    }
+   ],
+   "nexus_status": null,
+   "my_status": "pending",
+   "my_status_set_by": "default",
+   "my_note": null,
+   "classification": "auto",
+   "confidence": 1.0,
+   "classifier_reasons": [
+    {
+     "course_id": "56a41f0b-2253-49ac-8847-832f75e39d83",
+     "course": "CMS",
+     "score": 1.1,
+     "reasons": [
+      "course name 'Crafting Marketing Strategies' (+0.60)",
+      "alias 'crafting' (+0.25)",
+      "alias 'marketing' (+0.25)"
+     ]
+    }
+   ],
+   "assignment_raw_id": null,
+   "is_hidden": false,
+   "title_source": "nexus",
+   "kind_source": "auto",
+   "upstream_due_at": null,
+   "due_changed_at": null,
+   "upstream_updated_at": null,
+   "first_seen_at": "2026-09-27T06:00:00+00:00",
+   "updated_at": "2026-09-27T06:00:00+00:00"
+  },
+  {
+   "id": "dd151758-94bf-482b-bc06-1888d342cc37",
+   "title": "Important: Assessment Details for Business Reader course",
+   "origin": "notification_only",
+   "kind": "announcement_task",
+   "course_id": "7c00c7ef-d8b9-4f83-9e4e-dc88af8255de",
+   "due_at": null,
+   "due_source": null,
+   "instructions_md": "Important: Assessment Details for Business Reader course",
+   "links": [
+    {
+     "label": "Open in Nexus",
+     "url": "https://students.mesaschool.co.in/student/lms/notifications"
+    }
+   ],
+   "nexus_status": null,
+   "my_status": "pending",
+   "my_status_set_by": "default",
+   "my_note": null,
+   "classification": "auto",
+   "confidence": 1.0,
+   "classifier_reasons": [
+    {
+     "course_id": "7c00c7ef-d8b9-4f83-9e4e-dc88af8255de",
+     "course": "Business Reader",
+     "score": 1.1,
+     "reasons": [
+      "course name 'Business Reader' (+0.60)",
+      "alias 'reader' (+0.25)",
+      "alias 'business reader' (+0.25)"
+     ]
+    }
+   ],
+   "assignment_raw_id": null,
+   "is_hidden": false,
+   "title_source": "nexus",
+   "kind_source": "auto",
+   "upstream_due_at": null,
+   "due_changed_at": null,
+   "upstream_updated_at": null,
+   "first_seen_at": "2026-09-27T06:00:00+00:00",
+   "updated_at": "2026-09-27T06:00:00+00:00"
+  },
+  {
+   "id": "e985bdac-3641-4f9e-9ee9-9815bcf3d90a",
+   "title": "Start-up Leader Session: Final Groups",
+   "origin": "notification_only",
+   "kind": "info",
+   "course_id": null,
+   "due_at": null,
+   "due_source": null,
+   "instructions_md": "Start-up Leader Session: Final Groups",
+   "links": [
+    {
+     "label": "Open in Nexus",
+     "url": "https://students.mesaschool.co.in/student/lms/notifications"
+    }
+   ],
+   "nexus_status": null,
+   "my_status": "pending",
+   "my_status_set_by": "default",
+   "my_note": null,
+   "classification": "unresolved",
+   "confidence": 0.0,
+   "classifier_reasons": [],
+   "assignment_raw_id": null,
+   "is_hidden": false,
+   "title_source": "nexus",
+   "kind_source": "auto",
+   "upstream_due_at": null,
+   "due_changed_at": null,
+   "upstream_updated_at": null,
+   "first_seen_at": "2026-09-27T06:00:00+00:00",
+   "updated_at": "2026-09-27T06:00:00+00:00"
+  },
+  {
+   "id": "1b5fb062-b736-44ab-98f4-7c9064523638",
+   "title": "CLUBS ARE FINALLY HERE!",
+   "origin": "notification_only",
+   "kind": "info",
+   "course_id": null,
+   "due_at": null,
+   "due_source": null,
+   "instructions_md": "CLUBS ARE FINALLY HERE!",
+   "links": [
+    {
+     "label": "Open in Nexus",
+     "url": "https://students.mesaschool.co.in/student/lms/notifications"
+    }
+   ],
+   "nexus_status": null,
+   "my_status": "pending",
+   "my_status_set_by": "default",
+   "my_note": null,
+   "classification": "unresolved",
+   "confidence": 0.0,
+   "classifier_reasons": [],
+   "assignment_raw_id": null,
+   "is_hidden": false,
+   "title_source": "nexus",
+   "kind_source": "auto",
+   "upstream_due_at": null,
+   "due_changed_at": null,
+   "upstream_updated_at": null,
+   "first_seen_at": "2026-09-27T06:00:00+00:00",
+   "updated_at": "2026-09-27T06:00:00+00:00"
+  },
+  {
+   "id": "c92fd6c9-6163-47a7-a074-de1d1e6712e1",
+   "title": "Your BYOB leaderboard has been updated",
+   "origin": "notification_only",
+   "kind": "info",
+   "course_id": "58d59022-f26e-4278-978e-87340014e828",
+   "due_at": null,
+   "due_source": null,
+   "instructions_md": "Check where your team stands.",
+   "links": [
+    {
+     "label": "Open in Nexus",
+     "url": "https://students.mesaschool.co.in/student/lms/notifications"
+    }
+   ],
+   "nexus_status": null,
+   "my_status": "pending",
+   "my_status_set_by": "default",
+   "my_note": null,
+   "classification": "auto",
+   "confidence": 0.85,
+   "classifier_reasons": [
+    {
+     "course_id": "58d59022-f26e-4278-978e-87340014e828",
+     "course": "BYOB",
+     "score": 0.85,
+     "reasons": [
+      "course reference 'BYOB' (+0.60)",
+      "alias 'byob' (+0.25)"
+     ]
+    }
+   ],
+   "assignment_raw_id": null,
+   "is_hidden": false,
+   "title_source": "nexus",
+   "kind_source": "auto",
+   "upstream_due_at": null,
+   "due_changed_at": null,
+   "upstream_updated_at": null,
+   "first_seen_at": "2026-09-27T06:00:00+00:00",
+   "updated_at": "2026-09-27T06:00:00+00:00"
+  },
+  {
+   "id": "687ad5ed-4346-467d-8266-24c9d91983da",
+   "title": "Growth & GTM: 'What Is' Panel",
+   "origin": "notification_only",
+   "kind": "info",
+   "course_id": null,
+   "due_at": null,
+   "due_source": null,
+   "instructions_md": "Growth & GTM: 'What Is' Panel",
+   "links": [
+    {
+     "label": "Open in Nexus",
+     "url": "https://students.mesaschool.co.in/student/lms/notifications"
+    }
+   ],
+   "nexus_status": null,
+   "my_status": "pending",
+   "my_status_set_by": "default",
+   "my_note": null,
+   "classification": "unresolved",
+   "confidence": 0.0,
+   "classifier_reasons": [],
+   "assignment_raw_id": null,
+   "is_hidden": false,
+   "title_source": "nexus",
+   "kind_source": "auto",
+   "upstream_due_at": null,
+   "due_changed_at": null,
+   "upstream_updated_at": null,
+   "first_seen_at": "2026-09-27T06:00:00+00:00",
+   "updated_at": "2026-09-27T06:00:00+00:00"
+  }
+ ],
+ "notifications": [
+  {
+   "id": "5ba40b15-1c93-4cd5-ba58-d97a67c47463",
+   "title": "New announcement",
+   "snippet": "Session 7 Lenskart Workbook",
+   "category_raw": "Announcement",
+   "published_at": "2026-09-26T06:00:00+00:00",
+   "link_url": null
+  },
+  {
+   "id": "e60c4567-4a46-4761-8d87-57581b168050",
+   "title": "New announcement",
+   "snippet": "Important: END TERM ASSIGNMENT – Crafting Marketing Strategy",
+   "category_raw": "Announcement",
+   "published_at": "2026-09-26T06:00:00+00:00",
+   "link_url": null
+  },
+  {
+   "id": "d87dd23c-a6fa-4a0f-b172-1722ffa9f546",
+   "title": "New announcement",
+   "snippet": "Important: Assessment Details for Business Reader course",
+   "category_raw": "Announcement",
+   "published_at": "2026-09-26T06:00:00+00:00",
+   "link_url": null
+  },
+  {
+   "id": "a9e2254d-514b-4df2-ade3-38baf8b91cb8",
+   "title": "New announcement",
+   "snippet": "Start-up Leader Session: Final Groups",
+   "category_raw": "General",
+   "published_at": "2026-09-26T06:00:00+00:00",
+   "link_url": null
+  },
+  {
+   "id": "f3a491dd-3e86-4697-959d-f5c56f176341",
+   "title": "New announcement",
+   "snippet": "CLUBS ARE FINALLY HERE!",
+   "category_raw": "General",
+   "published_at": "2026-09-26T06:00:00+00:00",
+   "link_url": null
+  },
+  {
+   "id": "fac24870-1e78-4a39-ac27-71523903c60f",
+   "title": "Your BYOB leaderboard has been updated",
+   "snippet": "Check where your team stands.",
+   "category_raw": "General",
+   "published_at": "2026-09-26T06:00:00+00:00",
+   "link_url": null
+  },
+  {
+   "id": "29150337-d0a8-403b-b1c8-3d0c2dae1b50",
+   "title": "New announcement",
+   "snippet": "Growth & GTM: 'What Is' Panel",
+   "category_raw": "Announcement",
+   "published_at": "2026-09-26T06:00:00+00:00",
+   "link_url": null
+  },
+  {
+   "id": "ee5a0b45-4b4d-4f64-a046-61a56137b2f7",
+   "title": "New assignment",
+   "snippet": "Zepto Case Analysis",
+   "category_raw": "Assignment",
+   "published_at": "2026-09-23T06:00:00+00:00",
+   "link_url": null
+  }
+ ],
+ "sources": [
+  [
+   "1b5fb062-b736-44ab-98f4-7c9064523638",
+   "f3a491dd-3e86-4697-959d-f5c56f176341"
+  ],
+  [
+   "687ad5ed-4346-467d-8266-24c9d91983da",
+   "29150337-d0a8-403b-b1c8-3d0c2dae1b50"
+  ],
+  [
+   "7a5c04fc-0feb-444a-8935-91b0a2d596d8",
+   "ee5a0b45-4b4d-4f64-a046-61a56137b2f7"
+  ],
+  [
+   "a4b07c61-be47-472d-831f-18eec2564575",
+   "e60c4567-4a46-4761-8d87-57581b168050"
+  ],
+  [
+   "c92fd6c9-6163-47a7-a074-de1d1e6712e1",
+   "fac24870-1e78-4a39-ac27-71523903c60f"
+  ],
+  [
+   "dd151758-94bf-482b-bc06-1888d342cc37",
+   "d87dd23c-a6fa-4a0f-b172-1722ffa9f546"
+  ],
+  [
+   "e985bdac-3641-4f9e-9ee9-9815bcf3d90a",
+   "a9e2254d-514b-4df2-ade3-38baf8b91cb8"
+  ],
+  [
+   "f1795068-8c74-4ad3-babc-8c96781be9b9",
+   "5ba40b15-1c93-4cd5-ba58-d97a67c47463"
+  ]
+ ]
+}

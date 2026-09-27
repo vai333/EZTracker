@@ -1,0 +1,6 @@
+{
+  "courses": { "url_contains": "/api/v1/curriculum/courses?termId=" },
+  "assignments": { "url_contains": "/api/v1/assignments/my" },
+  "notifications": { "url_contains": "/api/v1/notifications" },
+  "announcements": { "url_contains": "/api/v1/announcements?courseId=" }
+}

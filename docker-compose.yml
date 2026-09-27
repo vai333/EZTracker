@@ -1,0 +1,38 @@
+# Local stack. Point .env at a Supabase project (hosted, or `supabase start` for a fully local one).
+#   docker compose up            → web on :5173, api on :8000
+#   docker compose --profile db up db   → throwaway Postgres with the migrations (integration tests)
+services:
+  api:
+    build: ./apps/api
+    env_file: .env
+    ports: ["8000:8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./apps/web
+      args:
+        VITE_SUPABASE_URL: ${VITE_SUPABASE_URL:-}
+        VITE_SUPABASE_ANON_KEY: ${VITE_SUPABASE_ANON_KEY:-}
+        VITE_API_URL: ${VITE_API_URL:-http://localhost:8000}
+    ports: ["5173:80"]
+    depends_on: [api]
+
+  db:
+    profiles: ["db"]
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: eztracker
+    ports: ["54329:5432"]
+    command: ["postgres", "-c", "wal_level=logical"]
+    volumes:
+      - ./supabase/tests/auth_stub.sql:/docker-entrypoint-initdb.d/00_auth_stub.sql:ro
+      - ./supabase/migrations/0001_core.sql:/docker-entrypoint-initdb.d/01_core.sql:ro
+      - ./supabase/migrations/0002_extensions.sql:/docker-entrypoint-initdb.d/02_extensions.sql:ro
+      - ./supabase/migrations/0003_rls_realtime.sql:/docker-entrypoint-initdb.d/03_rls.sql:ro
